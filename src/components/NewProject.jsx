@@ -4,7 +4,7 @@ import Modal from "./Modal";
 import NoProjectSelected from "./NoProjectSelected";
 
 export default function NewProject({ onAdd, onCancel }) {
-    const modal = useRef()
+    const modal = useRef();
     const title = useRef();
     const description = useRef();
     const dueDate = useRef();
